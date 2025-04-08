@@ -65,8 +65,7 @@ Attempt to lock out the account by entering the wrong password 10 times or more 
 ![Screenshot 2025-03-11 003334](https://github.com/user-attachments/assets/6293b6a4-5fb4-4b5e-a5ad-22c689352f59)
 
 </p>
-<p>
-Once in client-1 vm, right-click on the start menu and select Run.
+<p> In order to apply the lockout policy it has to be configured within Group Policy Management. Once in dc-1 logged in as admin, right-click on the start menu and select Run.
 </p>
 <br />
 
