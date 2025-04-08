@@ -11,20 +11,23 @@ This tutorial explores deploying an Active Directory environment, from creation 
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
+- Active Directory
 - Powershell
+- Command Prompt
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
+- Windows Server 2022
 
-<h2>List of Prerequisites</h2>
+<h2>High-Level Configuration Steps</h2>
 
-- Item 1 
-- Item 2
-- Item 3
-- Item 4
+- Dealing with Account Lockouts 
+- Enabling and Disabling Accounts
+- Configure Domain Password Lockout Policy
+- Observing Logs
 
-<h2>Lifecycle Stages</h2>
+<h2>Configuration Steps</h2>
 
 <p>
   
@@ -32,7 +35,7 @@ This tutorial explores deploying an Active Directory environment, from creation 
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to virtual machines in Azure, choose client-1 and dc-1, and then launch the virtual machines.
 </p>
 <br />
 
@@ -42,27 +45,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After copying and pasting client-1's IP address into Remote Desktop, click Connect.
 </p>
 <br />
 
 <p>
   
-![Screenshot 2025-03-11 002749](https://github.com/user-attachments/assets/ee75fd29-903a-401a-94bf-8a971aeea860)
+![Screenshot 2025-03-11 002938](https://github.com/user-attachments/assets/6b5d337d-a86c-45e9-a48e-b3c2c5c1a0fa)
+
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-  
-![Screenshot 2025-03-11 002804](https://github.com/user-attachments/assets/196d0d03-83ec-407c-a9eb-d5055067edd6)
-
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Attempt to lock out the account by entering the wrong password 10 times or more while trying to gain access to client-1.
 </p>
 <br />
 
@@ -72,7 +66,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once in client-1 vm, right-click on the start menu and select Run.
 </p>
 <br />
 
@@ -82,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Run, type gpmc.msc to open up Group Policy Management.
 </p>
 <br />
 
