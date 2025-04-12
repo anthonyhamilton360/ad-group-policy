@@ -297,7 +297,7 @@ Type the name of the user and click on Find Now to locate that user. In my case 
 
 </p>
 <p>
-  Right-click on the user and select properties. Check the "Unloack account. The account is currently locked out on the Active Directory Domain Controller" box, select Apply and OK.
+  Right-click on the user and select properties. Check the "Unlock account. The account is currently locked out on the Active Directory Domain Controller" box, select Apply and OK.
 </p>
 <br />
 
@@ -307,7 +307,7 @@ Type the name of the user and click on Find Now to locate that user. In my case 
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After the account is unlocked, I logged back into client-1 as lil.jof and opened command prompt in order to verify.
 </p>
 <br />
 
