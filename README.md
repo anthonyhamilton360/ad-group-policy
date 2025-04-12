@@ -206,7 +206,7 @@ Login as jane_admin in order to  force the changes using gpudate in command prom
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once in client-1, open command prompt.
 </p>
 <br />
 
@@ -216,7 +216,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Type gpupdate /force and press enter.
 </p>
 <br />
 
@@ -226,27 +226,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The update has been completed successfully.
 </p>
 <br />
 
 <p>
   
-![Screenshot 2025-03-11 005254](https://github.com/user-attachments/assets/23d115bb-e383-4e4b-b709-2a22613b1cb4)
+![Screenshot 2025-03-11 005254](https://github.com/user-attachments/assets/8c897c06-6d64-4616-a848-c8eb266f8628)
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Type gpresult /r and press enter.
 </p>
 <br />
 
 <p>
   
-![Screenshot 2025-03-11 005420](https://github.com/user-attachments/assets/01101b85-6c12-4c40-b8af-193407c938fa)
+![Screenshot 2025-03-11 005420](https://github.com/user-attachments/assets/44a29e0b-8589-40d5-ba03-a330deac9e40)
+
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Notice that the Default Domain Policy has been applied.
 </p>
 <br />
 
@@ -256,7 +257,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Back in Azure, log out of client-1 and try to lock out one of the random accounts after 5 failed attempts and notice the lock out message that appears.
 </p>
 <br />
 
