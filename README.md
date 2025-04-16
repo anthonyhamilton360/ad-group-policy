@@ -427,7 +427,7 @@ Go to Security after expanding Windows Logs, then right-click and choose Find.
 
 </p>
 <p>
-Observe the failed attempts to login as lil.jof to conclude the lab.
+To conclude this lab, Observe the failed attempts to login as lil.jof to conclude the lab.
 </p>
 <br />
 
